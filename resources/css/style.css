@@ -11,13 +11,51 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  
 
 }
 
 h1 {
+    margin: 1rem;
     color: white;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+a {
+   color: aquamarine; 
+}
+
+video {
+    margin: 1rem;
+}
+
+h2 {
+    margin-bottom: 1.2rem;
+    color: white;
+    font-size: 2.625rem;
+    font-weight: 300;
+}
+p { 
+    margin-top: 1.2rem;
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+.camping {
+    display: block;
+    margin: 1.25rem auto;
+}
+
+.phone {
+    display: block;
+    margin: 0 auto;
+    
+}
+.soon {
+    margin-top: 2rem;
+}
+.footer {
+    margin: 1rem;
+    text-align: right;
 }
